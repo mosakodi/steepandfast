@@ -1,20 +1,23 @@
-function setup()
-{
+function setup() {
+
   createCanvas(600, 500);
-  background(240);
+ 
+  fill(110);
+  //noStroke();
+//function draw() {
+  background(110);
+  strokeWeight(114); 
+  //print(mouseX);
 
-  const w = width * 0.3;
-  const h = height * 0.5;
-
-  stroke(30);
-  strokeWeight(width*0.1);
-  strokeCap(SQUARE);
-  noFill();
-  translate(width/2, height/2);
   beginShape();
-    vertex(-w, 0)
-    bezierVertex(-w, -h, w, h, w, 0);
+  vertex(0, height);
+  vertex(width * 0.2, height * 0.4);
+  vertex(width * 0.35, height * 0.6);
+  vertex(width * 0.50, height * 0.2);
+  vertex(width * 0.70, height * 0.5);
+  vertex(width * 0.85, height * 0.3);
+  vertex(width, height);
   endShape();
-
+  
   noLoop();
 }
