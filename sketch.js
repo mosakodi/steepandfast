@@ -1,13 +1,12 @@
 function setup() {
-
   createCanvas(600, 500);
- 
   fill(110);
-  //noStroke();
-//function draw() {
+}
+
+function draw() {
   background(110);
-  strokeWeight(114); 
-  //print(mouseX);
+  strokeWeight(mouseX); 
+  print(mouseX);
 
   beginShape();
   vertex(0, height);
@@ -18,6 +17,4 @@ function setup() {
   vertex(width * 0.85, height * 0.3);
   vertex(width, height);
   endShape();
-  
-  noLoop();
 }

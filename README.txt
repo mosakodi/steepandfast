@@ -10,19 +10,20 @@ https://nodejs.org/en/download/
 git needs to be installed
 https://git-scm.com/
 
-once both are installed, on windows - opens 'git bash'
+once both are installed, on opens 'git bash'
 
-npm install -g http-server
+running p5:
+open terminal type git bash
+navigate to this project: cd Desktop/steep_and_fast
+run the server: http-server -c-1
 
-EVERY TIME:
-in terminal:
- *navigate to this project
- cd Desktop/steep_and_fast
+point browser to local host: http://localhost:8080/
+to stop server use ctrl C
+to install server: npm install -g http-server
 
- *open project folder and open sketch file
+while working on project:
+open terminal, go to project
+if new files added: git add
+to make changes to github: git commit -am'commit message goes here'
+git push
 
- *then point terminal to
- http-server -c-1
-
- *then point browser to
- http://localhost:8080/
