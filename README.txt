@@ -26,4 +26,3 @@ open terminal, go to project
 if new files added: git add
 to make changes to github: git commit -am'commit message goes here'
 git push
-
