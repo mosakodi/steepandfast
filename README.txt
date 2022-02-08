@@ -14,12 +14,17 @@ once both are installed, on opens 'git bash'
 
 running p5:
 open terminal type git bash
-navigate to this project: cd Desktop/steep_and_fast
+navigate to this project: cd Desktop/moonphase
 run the server: http-server -c-1
 
 point browser to local host: http://localhost:8080/
 to stop server use ctrl C
 to install server: npm install -g http-server
+
+run the server 
+http-server -c-1
+
+point browser to local host: http://localhost:8080/
 
 while working on project:
 open terminal, go to project
